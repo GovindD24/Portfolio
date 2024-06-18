@@ -4,4 +4,7 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
-  
+
+  function showContactDetails() {
+    document.getElementById('contact-details').style.display = 'block';
+}
